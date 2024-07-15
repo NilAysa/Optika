@@ -1,0 +1,154 @@
+﻿<Page x:Class="Optika_Lens.CreateNewRecordPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Create New Record" Height="550" Width="500">
+    <Page.Resources>
+        <Style TargetType="Border" x:Key="RoundedBorderStyle">
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+        </Style>
+        <Style TargetType="Button" x:Key="RoundedButtonStyle">
+            <Setter Property="Background" Value="#007ACC"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#007ACC"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="InputLabelStyle">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="10,0,10,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style TargetType="TextBox" x:Key="InputTextBoxStyle">
+            <Setter Property="Foreground" Value="#555555"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#CCCCCC"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Title -->
+            <TextBlock Text="Kreiraj karton za novog pacijenta" FontSize="24" FontWeight="Bold" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+
+            <!-- Medical Record Information Card -->
+            <Border Grid.Row="1" Style="{StaticResource RoundedBorderStyle}" Padding="20" Margin="0,10,0,20">
+                <StackPanel>
+                    <!-- Pro_dist_longa_OS -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Pro_dist_longa_OS:" Style="{StaticResource InputLabelStyle}" Width="150"/>
+                        <TextBox Name="txtProDistLongaOS" Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Pro_dist_longa_OD -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Pro_dist_longa_OD:" Style="{StaticResource InputLabelStyle}" Width="150"/>
+                        <TextBox Name="txtProDistLongaOD" Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Pro_dist_media_OS -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Pro_dist_media_OS:" Style="{StaticResource InputLabelStyle}" Width="150"/>
+                        <TextBox Name="txtProDistMediaOS" Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Pro_dist_media_OD -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Pro_dist_media_OD:" Style="{StaticResource InputLabelStyle}" Width="150"/>
+                        <TextBox Name="txtProDistMediaOD" Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Pro_dist_propria_OS -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Pro_dist_propria_OS:" Style="{StaticResource InputLabelStyle}" Width="150"/>
+                        <TextBox Name="txtProDistPropriaOS" Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Pro_dist_propria_OD -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Pro_dist_propria_OD:" Style="{StaticResource InputLabelStyle}" Width="150"/>
+                        <TextBox Name="txtProDistPropriaOD" Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Dist_pupill -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Dist_pupill:" Style="{StaticResource InputLabelStyle}" Width="150"/>
+                        <TextBox Name="txtDistPupill" Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Vrsta_stakla -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Vrsta_stakla:" Style="{StaticResource InputLabelStyle}" Width="150"/>
+                        <TextBox Name="txtVrstaStakla" Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Proizvodjac_stakla -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Proizvodjac_stakla:" Style="{StaticResource InputLabelStyle}" Width="150"/>
+                        <TextBox Name="txtProizvodjacStakla" Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Datum_pregleda -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Datum_pregleda:" Style="{StaticResource InputLabelStyle}" Width="150"/>
+                        <TextBox Name="txtDatumPregleda" Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Doktor -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Doktor:" Style="{StaticResource InputLabelStyle}" Width="150"/>
+                        <TextBox Name="txtDoktor" Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+
+                    <!-- Napomena -->
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock Text="Napomena:" Style="{StaticResource InputLabelStyle}" Width="150"/>
+                        <TextBox Name="txtNapomena" Style="{StaticResource InputTextBoxStyle}"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
+            <!-- Button to Save Medical Record -->
+            <Button Grid.Row="2" Content="Sačuvaj karton" Click="BtnSaveRecord_Click" Style="{StaticResource RoundedButtonStyle}" HorizontalAlignment="Center" Margin="0,10,0,10" Width="150"/>
+        </Grid>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,135 @@
+﻿<Page x:Class="Optika_Lens.SearchPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Search Page" Width="900">
+
+    <Page.Resources>
+        <!-- Define styles for buttons -->
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#005F99"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#005F99"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Padding" Value="10, 5"/>
+            <Setter Property="Margin" Value="10, 0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#004C7D"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Style for the title -->
+        <Style TargetType="TextBlock" x:Key="TitleStyle">
+            <Setter Property="FontSize" Value="28"/>
+            <Setter Property="Foreground" Value="#333333"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="0,10,0,20"/>
+        </Style>
+
+        <!-- Style for TextBox -->
+        <Style TargetType="TextBox" x:Key="SearchTextBoxStyle">
+            <Setter Property="Foreground" Value="#555555"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#CCCCCC"/>
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Margin" Value="0,0,10,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="5">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Style for ListView -->
+        <Style TargetType="ListView" x:Key="ListViewStyle">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#005F99"/>
+            <Setter Property="Foreground" Value="#333333"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Height" Value="400"/>
+        </Style>
+
+        <!-- Style for GridViewColumnHeader without hover effects -->
+        <Style TargetType="GridViewColumnHeader">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Background" Value="#D3EAF9"/>
+            <Setter Property="Padding" Value="10"/>
+            <!-- Remove triggers for hover effects -->
+        </Style>
+
+        <!-- Style for ListViewItem -->
+        <Style TargetType="{x:Type ListViewItem}">
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Foreground" Value="#333333"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#E0F0FF"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="White" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Search Bar -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10">
+            <TextBox Name="txtSearch" Text="Enter user name..." Foreground="Gray"
+                     GotKeyboardFocus="TxtSearch_GotKeyboardFocus"
+                     LostKeyboardFocus="TxtSearch_LostKeyboardFocus"
+                     Style="{StaticResource SearchTextBoxStyle}"/>
+            <Button Content="Search" Click="BtnSearch_Click"
+                    Style="{StaticResource ButtonStyle}"/>
+            <Button Content="Prikaži sve" Click="BtnShowAll_Click"
+                    Style="{StaticResource ButtonStyle}"/>
+        </StackPanel>
+
+        <!-- List of Users -->
+        <ListView Grid.Row="1" Name="lvUsers" Style="{StaticResource ListViewStyle}"
+                  SelectionChanged="LvUsers_SelectionChanged"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header=" " DisplayMemberBinding="{Binding Index}" Width="50"/>
+                    <GridViewColumn Header="Ime i Prezime" DisplayMemberBinding="{Binding Ime_Prezime}" Width="300"/>
+                    <GridViewColumn Header="Broj Telefona" DisplayMemberBinding="{Binding Broj_Telefona}" Width="300"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Page>

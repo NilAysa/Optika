@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|c:\\users\\korisnik\\desktop\\visualstudioprojects\\optika lens - copy\\optika lens\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|solutionrelative:optika lens\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|c:\\users\\korisnik\\desktop\\visualstudioprojects\\optika lens - copy\\optika lens\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|solutionrelative:optika lens\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|c:\\users\\korisnik\\desktop\\visualstudioprojects\\optika lens - copy\\optika lens\\addpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|solutionrelative:optika lens\\addpatientpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|c:\\users\\korisnik\\desktop\\visualstudioprojects\\optika lens - copy\\optika lens\\intropage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|solutionrelative:optika lens\\intropage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|c:\\users\\korisnik\\desktop\\visualstudioprojects\\optika lens - copy\\optika lens\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|solutionrelative:optika lens\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|c:\\users\\korisnik\\desktop\\visualstudioprojects\\optika lens - copy\\optika lens\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|solutionrelative:optika lens\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|c:\\users\\korisnik\\desktop\\visualstudioprojects\\optika lens - copy\\optika lens\\createnewrecordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|solutionrelative:optika lens\\createnewrecordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|c:\\users\\korisnik\\desktop\\visualstudioprojects\\optika lens - copy\\optika lens\\addpatientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|solutionrelative:optika lens\\addpatientpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|c:\\users\\korisnik\\desktop\\visualstudioprojects\\optika lens - copy\\optika lens\\createnewrecordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|solutionrelative:optika lens\\createnewrecordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|c:\\users\\korisnik\\desktop\\visualstudioprojects\\optika lens - copy\\optika lens\\intropage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|solutionrelative:optika lens\\intropage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|c:\\users\\korisnik\\desktop\\visualstudioprojects\\optika lens - copy\\optika lens\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83248E9-3DD1-4054-B176-385CC935AD79}|Optika Lens\\Optika Lens.csproj|solutionrelative:optika lens\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddPatientPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\AddPatientPage.xaml",
+              "RelativeDocumentMoniker": "Optika Lens\\AddPatientPage.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\AddPatientPage.xaml",
+              "RelativeToolTip": "Optika Lens\\AddPatientPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-14T13:04:57.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IntroPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\IntroPage.xaml",
+              "RelativeDocumentMoniker": "Optika Lens\\IntroPage.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\IntroPage.xaml",
+              "RelativeToolTip": "Optika Lens\\IntroPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-14T13:42:33.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\SearchPage.xaml",
+              "RelativeDocumentMoniker": "Optika Lens\\SearchPage.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\SearchPage.xaml*",
+              "RelativeToolTip": "Optika Lens\\SearchPage.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-14T13:04:32.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\SearchPage.xaml.cs",
+              "RelativeDocumentMoniker": "Optika Lens\\SearchPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\SearchPage.xaml.cs",
+              "RelativeToolTip": "Optika Lens\\SearchPage.xaml.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAcwJkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T13:07:24.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateNewRecordPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\CreateNewRecordPage.xaml.cs",
+              "RelativeDocumentMoniker": "Optika Lens\\CreateNewRecordPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\CreateNewRecordPage.xaml.cs",
+              "RelativeToolTip": "Optika Lens\\CreateNewRecordPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:03:41.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Optika Lens\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\MainWindow.xaml",
+              "RelativeToolTip": "Optika Lens\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-13T13:35:44.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Optika Lens\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Optika Lens\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T13:35:42.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddPatientPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\AddPatientPage.xaml.cs",
+              "RelativeDocumentMoniker": "Optika Lens\\AddPatientPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\AddPatientPage.xaml.cs",
+              "RelativeToolTip": "Optika Lens\\AddPatientPage.xaml.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAuwFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T13:16:34.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateNewRecordPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\CreateNewRecordPage.xaml",
+              "RelativeDocumentMoniker": "Optika Lens\\CreateNewRecordPage.xaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\CreateNewRecordPage.xaml",
+              "RelativeToolTip": "Optika Lens\\CreateNewRecordPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-14T15:01:11.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IntroPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\IntroPage.xaml.cs",
+              "RelativeDocumentMoniker": "Optika Lens\\IntroPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\IntroPage.xaml.cs",
+              "RelativeToolTip": "Optika Lens\\IntroPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T13:43:08.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\Korisnik.cs",
+              "RelativeDocumentMoniker": "Optika Lens\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\VisualStudioProjects\\Optika Lens - Copy\\Optika Lens\\Korisnik.cs",
+              "RelativeToolTip": "Optika Lens\\Korisnik.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T13:14:30.361Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
